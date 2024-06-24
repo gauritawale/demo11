@@ -1,0 +1,55 @@
+.bg{
+	height: 570px;
+	width: 100%;
+	background-color: black;
+}
+
+.box1{
+	height: 100px;
+	width: 100px;
+	 border-top: solid 8px blue;
+    border-right: solid 8px violet;
+    border-left: solid 8px skyblue;
+
+	border-radius: 50%;
+	float: left;
+	position: absolute;
+	left:400px;
+	top:95px;
+}
+.box2{
+	height: 100px;
+	width: 100px;
+    border-top: solid 8px blue;
+    border-right: solid 8px violet;
+    border-left: solid 8px skyblue;
+    	border-radius: 50%;
+	float: left;
+	position: absolute;
+	left:700px;
+	top:95px;
+}
+
+.div1{
+	height:340px;
+	width:550px;
+	background-image: linear-gradient(to right,yellow,white,violet,blue,yellow);
+	border: none;
+	position: absolute;
+	left:340px;
+	top:130px;
+
+}
+
+.div2{
+	height:250px;
+	width:640px;
+	background-image: linear-gradient(to right,yellow,white,violet,blue,yellow);
+	border: none;
+		z-index: 809988;
+		position: absolute;
+	left:296px;
+	top:175px;
+
+
+}
